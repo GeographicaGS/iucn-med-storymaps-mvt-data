@@ -48,7 +48,8 @@
                 "collapsed": true
             },
             "4730280f83d64a976de37c3c03cb1e0e": {
-                "name": "butterflies_endemic"
+                "name": "butterflies_endemic",
+                "collapsed": false
             },
             "1444855799204.86": {
                 "name": "Bridges",
@@ -89,7 +90,7 @@
     "pitch": 0,
     "sources": {
         "composite": {
-            "url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7,cayetanobv.5a2yrheo,cayetanobv.a9mojri8,cayetanobv.endemic_richness",
+            "url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7,cayetanobv.all_species_count,cayetanobv.threatened_count,cayetanobv.endemic_richness",
             "type": "vector"
         }
     },
@@ -8029,7 +8030,7 @@
                 "mapbox:group": "810a34b8eff571b409c35288faddf2b1"
             },
             "source": "composite",
-            "source-layer": "Analysis_threatened_species-82u0ll",
+            "source-layer": "threatened_countgeojson",
             "filter": [
                 "all",
                 [
@@ -8059,7 +8060,7 @@
                 "mapbox:group": "810a34b8eff571b409c35288faddf2b1"
             },
             "source": "composite",
-            "source-layer": "Analysis_threatened_species-82u0ll",
+            "source-layer": "threatened_countgeojson",
             "filter": [
                 "all",
                 [
@@ -8089,7 +8090,7 @@
                 "mapbox:group": "810a34b8eff571b409c35288faddf2b1"
             },
             "source": "composite",
-            "source-layer": "Analysis_threatened_species-82u0ll",
+            "source-layer": "threatened_countgeojson",
             "filter": [
                 "all",
                 [
@@ -8119,7 +8120,7 @@
                 "mapbox:group": "810a34b8eff571b409c35288faddf2b1"
             },
             "source": "composite",
-            "source-layer": "Analysis_threatened_species-82u0ll",
+            "source-layer": "threatened_countgeojson",
             "filter": [
                 "all",
                 [
@@ -8149,7 +8150,7 @@
                 "mapbox:group": "4730280f83d64a976de37c3c03cb1e0e"
             },
             "source": "composite",
-            "source-layer": "original",
+            "source-layer": "endemic_richnessgeojson",
             "filter": [
                 "all",
                 [
@@ -8179,7 +8180,7 @@
                 "mapbox:group": "4730280f83d64a976de37c3c03cb1e0e"
             },
             "source": "composite",
-            "source-layer": "original",
+            "source-layer": "endemic_richnessgeojson",
             "filter": [
                 "all",
                 [
@@ -8217,7 +8218,7 @@
                 "mapbox:group": "4730280f83d64a976de37c3c03cb1e0e"
             },
             "source": "composite",
-            "source-layer": "original",
+            "source-layer": "endemic_richnessgeojson",
             "filter": [
                 "all",
                 [
@@ -8255,7 +8256,7 @@
                 "mapbox:group": "4730280f83d64a976de37c3c03cb1e0e"
             },
             "source": "composite",
-            "source-layer": "original",
+            "source-layer": "endemic_richnessgeojson",
             "filter": [
                 "all",
                 [
@@ -8293,7 +8294,7 @@
                 "mapbox:group": "4730280f83d64a976de37c3c03cb1e0e"
             },
             "source": "composite",
-            "source-layer": "original",
+            "source-layer": "endemic_richnessgeojson",
             "filter": [
                 "all",
                 [
@@ -8331,7 +8332,7 @@
                 "mapbox:group": "4730280f83d64a976de37c3c03cb1e0e"
             },
             "source": "composite",
-            "source-layer": "original",
+            "source-layer": "endemic_richnessgeojson",
             "filter": [
                 "all",
                 [
@@ -9675,7 +9676,7 @@
     ],
     "created": "2017-03-17T10:19:13.952Z",
     "id": "cj0do9yow001q2smnpjsp8wtq",
-    "modified": "2017-03-27T11:21:49.310Z",
+    "modified": "2017-04-18T15:46:52.654Z",
     "owner": "cayetanobv",
     "visibility": "private",
     "draft": false
