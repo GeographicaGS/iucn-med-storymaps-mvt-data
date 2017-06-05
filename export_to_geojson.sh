@@ -26,6 +26,7 @@ declare -a lyrs_arr=(
     "endemic_richness"
     "threatened_count"
     "ipas"
+    "coral_infralitoral"
   )
 
 printf "\nExporting %s layers...\n" "${#lyrs_arr[@]}"
