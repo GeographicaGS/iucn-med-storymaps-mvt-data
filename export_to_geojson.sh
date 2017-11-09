@@ -27,6 +27,13 @@ declare -a lyrs_arr=(
     "threatened_count"
     "ipas"
     "coral_infralitoral"
+    "chondrichthyans_thrt"
+    "chondrichthyans_dd"
+    "Gazella_dorcas"
+    "Gazella_cuvieri"
+    "Gazella_arabica"
+    "Gazella_leptoceros"
+    "Gazella_marica"
   )
 
 printf "\nExporting %s layers...\n" "${#lyrs_arr[@]}"
