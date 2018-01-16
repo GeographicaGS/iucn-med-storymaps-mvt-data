@@ -34,6 +34,8 @@ declare -a lyrs_arr=(
     "Gazella_arabica"
     "Gazella_leptoceros"
     "Gazella_marica"
+    "mediterranean_hotspot_boundary"
+    "mediterranean_kba_plants"
   )
 
 printf "\nExporting %s layers...\n" "${#lyrs_arr[@]}"
